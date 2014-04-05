@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  database: drink_up_development
+
+test:
+  adapter: postgresql
+  database: drink_up_test

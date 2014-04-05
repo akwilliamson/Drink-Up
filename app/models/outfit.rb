@@ -1,0 +1,3 @@
+class Outfit
+
+end

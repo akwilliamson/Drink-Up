@@ -1,0 +1,17 @@
+<h1>Add Drink</h1>
+
+<form action="/add" method="post">
+  <label for="name">Name: </label>
+  <input id="name" type="text" name="drink[name]">
+  <label for="description">Description: </label>
+  <input id="description" type="text" name="drink[description]">
+  <select name="drink[category]">
+    <option value="beer">Beer</option>
+    <option value="wine">Wine</option>
+    <option value="liquor">Liquor</option>
+  </select>
+  <%= render('form') %>
+  <button>Submit</button>
+</form>
+
+<a href="/">ROOT! ROOT! ROOT!</a>

@@ -1,0 +1,10 @@
+<% content_for(:title, "DRINK UP!") %>
+
+<h1>Drink Up!</h1>
+
+<form action="/suggestion" method="post">
+  <%= render('form') %>
+  <button>Submit</button>
+</form>
+
+<a href="/add">Admin-Add Drink</a>
