@@ -1,5 +1,4 @@
-* As a user, I want to select my mood, the weather, the atmosphere (friends, family), and a drink complexity
+Drink Up
+===
 
-* As a user, I want to get back a drink recommendation
-
-* we want category of drink (beer, wine, mixed ..)
+An app that recommends a drink based on the combination of a users environment, mood, location and gender.
